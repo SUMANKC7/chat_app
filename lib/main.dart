@@ -1,4 +1,6 @@
-import 'package:chatting_app/pages/login_page.dart';
+
+import 'package:chatting_app/auth/login_or_register.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,9 +12,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return const  MaterialApp(
       title: "Chat",
-      home: LoginPage(),
+      home:LoginOrRegister(),
     );
   }
 }
